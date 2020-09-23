@@ -1,0 +1,15 @@
+{
+  "name": "holobot",
+  "version": "0.0.1",
+  "description": "A discord bot built around vtubers",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Findu",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
