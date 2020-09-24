@@ -10,6 +10,7 @@
   "author": "Findu",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.3.1"
+    "discord.js": "^12.3.1",
+    "enmap": "^5.8.0"
   }
 }
