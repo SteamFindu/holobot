@@ -1,7 +1,9 @@
 exports.run = (client, message, args) => {
+    // requires the ADMININSTRATOR permission to use
     if (!message.member.hasPermission("ADMINISTRATOR")) {
         return message.reply("You do not have permission to use this command")
     }
+
     if(!args || args.length < 1) return message.reply("Need command which to reload");
     const commandName = args[0];
     // Check if the command exists and is valid

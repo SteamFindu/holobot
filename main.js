@@ -1,3 +1,5 @@
+// a lot of this code has been taken from https://discordjs.guide/command-handling/
+
 const fs = require('fs');
 const Discord = require("discord.js");
 const Enmap = require("enmap");
@@ -16,6 +18,7 @@ fs.readdir("./events/", (err, files) => {
         const event = require(`./events/${file}`);
         let eventName = file.split(".")[0];
 
+        // magic line
         client.on(eventName, event.bind(null, client));
         delete require.cache[require.resolve(`./events/${file}`)];
     });
