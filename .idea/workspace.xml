@@ -22,14 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7537679-42a3-40a9-bac0-9f3cf4db4639" name="Default Changelist" comment="Add reload.js">
-      <change afterPath="$PROJECT_DIR$/commands/hentai.js" afterDir="false" />
+    <list default="true" id="a7537679-42a3-40a9-bac0-9f3cf4db4639" name="Default Changelist" comment="Change alot of things, still needs work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/reload.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/reload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/events/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/hentai.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/hentai.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,8 @@
       <workItem from="1600866886969" duration="4421000" />
       <workItem from="1600881772990" duration="1249000" />
       <workItem from="1600940779458" duration="13143000" />
-      <workItem from="1601135618993" duration="9814000" />
+      <workItem from="1601135618993" duration="11315000" />
+      <workItem from="1601226559017" duration="2329000" />
     </task>
     <task id="LOCAL-00001" summary="Add gitignore stuff">
       <created>1600870272836</created>
@@ -112,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600986531607</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change alot of things, still needs work">
+      <created>1601148102032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601148102032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +137,8 @@
     <MESSAGE value="Add gitignore stuff" />
     <MESSAGE value="Remade the entire command system, more scalable now" />
     <MESSAGE value="Add reload.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add reload.js" />
+    <MESSAGE value="Change alot of things, still needs work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change alot of things, still needs work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="769" y="299" key="FileChooserDialogImpl" timestamp="1600883560901">
@@ -149,26 +153,26 @@
       <screen x="50" y="0" width="1870" height="1080" />
     </state>
     <state x="816" y="164" key="Github.UntrackedFilesDialog/50.0.1870.1080@50.0.1870.1080" timestamp="1600869429728" />
-    <state width="881" height="279" key="GridCell.Tab.0.bottom" timestamp="1601147831734">
+    <state width="1450" height="279" key="GridCell.Tab.0.bottom" timestamp="1601227787517">
       <screen x="50" y="0" width="1870" height="1080" />
     </state>
-    <state width="881" height="279" key="GridCell.Tab.0.bottom/50.0.1870.1080@50.0.1870.1080" timestamp="1601147831734" />
-    <state width="881" height="279" key="GridCell.Tab.0.center" timestamp="1601147831734">
+    <state width="1450" height="279" key="GridCell.Tab.0.bottom/50.0.1870.1080@50.0.1870.1080" timestamp="1601227787517" />
+    <state width="1450" height="279" key="GridCell.Tab.0.center" timestamp="1601227787516">
       <screen x="50" y="0" width="1870" height="1080" />
     </state>
-    <state width="881" height="279" key="GridCell.Tab.0.center/50.0.1870.1080@50.0.1870.1080" timestamp="1601147831734" />
-    <state width="881" height="279" key="GridCell.Tab.0.left" timestamp="1601147831734">
+    <state width="1450" height="279" key="GridCell.Tab.0.center/50.0.1870.1080@50.0.1870.1080" timestamp="1601227787516" />
+    <state width="1450" height="279" key="GridCell.Tab.0.left" timestamp="1601227787516">
       <screen x="50" y="0" width="1870" height="1080" />
     </state>
-    <state width="881" height="279" key="GridCell.Tab.0.left/50.0.1870.1080@50.0.1870.1080" timestamp="1601147831734" />
-    <state width="881" height="279" key="GridCell.Tab.0.right" timestamp="1601147831734">
+    <state width="1450" height="279" key="GridCell.Tab.0.left/50.0.1870.1080@50.0.1870.1080" timestamp="1601227787516" />
+    <state width="1450" height="279" key="GridCell.Tab.0.right" timestamp="1601227787516">
       <screen x="50" y="0" width="1870" height="1080" />
     </state>
-    <state width="881" height="279" key="GridCell.Tab.0.right/50.0.1870.1080@50.0.1870.1080" timestamp="1601147831734" />
-    <state x="581" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600986535809">
+    <state width="1450" height="279" key="GridCell.Tab.0.right/50.0.1870.1080@50.0.1870.1080" timestamp="1601227787516" />
+    <state x="581" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601148105481">
       <screen x="50" y="0" width="1870" height="1080" />
     </state>
-    <state x="581" y="273" key="Vcs.Push.Dialog.v2/50.0.1870.1080@50.0.1870.1080" timestamp="1600986535809" />
+    <state x="581" y="273" key="Vcs.Push.Dialog.v2/50.0.1870.1080@50.0.1870.1080" timestamp="1601148105481" />
     <state x="606" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600986583207">
       <screen x="50" y="0" width="1870" height="1080" />
     </state>

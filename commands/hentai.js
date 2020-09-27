@@ -11,7 +11,7 @@ exports.run = async (client, message, args) => {
         let artisttext = "";
 
         console.log(args)
-        if (args === '') {
+        if (args.length < 1) {
             url = "https://nhentai.net/random";
         }
         else {
@@ -21,7 +21,7 @@ exports.run = async (client, message, args) => {
         console.log(url)
         const htmlDoc = await cheerio.load(axio.get(url));
 
-        console.log(htmlDoc.name)
+        console.log(htmlDoc.link)
     }
     catch (error){
     throw error;
